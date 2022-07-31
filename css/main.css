@@ -14,12 +14,29 @@
     color: rgb(85, 85, 85);
     padding: 10px 28px;
     border-radius: 25px;
+    transition: 1.5s;
   }
+  /* .btn:not(.nav-btns button){
+   justify-content: center;
+    width: 200px;
+    padding: 10px;
+    font-size: 10px;
+    color: #15f4ee;
+    font-family: poppins;
+    font-weight: 400;
+    border: 5px solid #15f4ee;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 1.5s;
+  } */
   .btn:not(.nav-btns button):hover{
 background: var(--pink);
 color: white;
 border: var(--pink);
   }
+
   .title h2::before{
     position: absolute;
     content: "";
@@ -47,15 +64,24 @@ border: var(--pink);
   }
   .nav-link:hover{
     color: var(--pink) !important;
+    
   }
 
+  /* .nav-link:hover{
+  box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+  0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+  } */
 /* Nav item border */
+
   .nav-item {
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
   }
 
   @media(min-width: 992px){
-  .nav-item{border-bottom: none;}}
+      .nav-item{
+        border-bottom: none;
+      }
+    }
 
 /* <!-- ------ Hero ------ --> */
 
@@ -68,11 +94,25 @@ border: var(--pink);
   font-family: var(--lg--font);
 }
 .carousel-item .btn{
-  border-color: white !important;
+  border-color: white  !important;
 }
 /* <!-- ------ Collection ------ --> */
 .active-filter-btn {
   background-color: var(--pink) !important;
-  color: white !important;
+  color: white  !important;
   border-color: var(--pink) !important; 
+  
+}
+
+/* .active-filter-btn:hover {
+  box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+                            0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+} */
+
+.collection-img span{
+  top: 20px ;
+  right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
 }

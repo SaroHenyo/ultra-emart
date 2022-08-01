@@ -48,7 +48,7 @@ border: var(--pink);
     transform: translateY(-50%);
   }
 
-  /* <!-- ------ Navbar ------ --> */
+ /*<!-- ---------------------- Navbar ------------------------- --> */
   .navbar-brand img{
     width: 30px;
   }
@@ -71,7 +71,7 @@ border: var(--pink);
   box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
   0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
   } */
-/* Nav item border */
+/*<!-- ---------------------- Navbar item ------------------------- --> */
 
   .nav-item {
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
@@ -83,7 +83,7 @@ border: var(--pink);
       }
     }
 
-/* <!-- ------ Hero ------ --> */
+/*<!-- ---------------------- Hero ------------------------- --> */
 
 #hero{
   background: url(../images/banner-img-1.jpg) top/cover;
@@ -96,7 +96,7 @@ border: var(--pink);
 .carousel-item .btn{
   border-color: white  !important;
 }
-/* <!-- ------ Collection ------ --> */
+/*<!-- ---------------------- Collection ------------------------- --> */
 .active-filter-btn {
   background-color: var(--pink) !important;
   color: white  !important;
@@ -117,7 +117,7 @@ border: var(--pink);
   border-radius: 50%;
 }
 
-/*<!-- ------------ Specials ------------------------- --> */
+/*<!-- ---------------------- Specials ------------------------- --> */
 .special-img span{
   top: 20px;
   right: 20px;
@@ -130,7 +130,7 @@ border: var(--pink);
   transition: al 0.3s ease;
 }
 
-/*<!-- ------------ Banner ------------------------- --> */
+/*<!-- ---------------------- Banner ------------------------- --> */
 #banner{
   background: url(../images/offer_img.jpg) center/cover;
 }
